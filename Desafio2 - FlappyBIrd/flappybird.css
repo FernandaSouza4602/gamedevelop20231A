@@ -1,0 +1,29 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-image: url("./flappybirdbg.png");
+}
+
+#author {
+    width: 100%;
+    bottom: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#author span {
+    font-size: 10px;
+    margin-left: 20px;
+    letter-spacing: 4px;
+}
+
+#author h1 {
+    font-size: 25px;
+}
